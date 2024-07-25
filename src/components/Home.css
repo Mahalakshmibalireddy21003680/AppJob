@@ -1,0 +1,17 @@
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .job-listings {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds space between the cards */
+    flex-wrap: wrap; /* Allows wrapping of cards if there's not enough space */
+    margin-top: 20px;
+  }
+  
+  .application-list {
+    margin-top: 40px;
+  }
+  

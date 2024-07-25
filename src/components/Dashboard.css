@@ -1,0 +1,47 @@
+.dashboard {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard h1 {
+    color: #333;
+  }
+  
+  .application-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .application-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .application-item:last-child {
+    border-bottom: none;
+  }
+  
+  .application-item h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .application-item p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .application-item button {
+    background-color: #ffc107;
+    color: #333;
+  }
+  
+  .application-item button:hover {
+    background-color: #e0a800;
+  }
+  
